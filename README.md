@@ -23,3 +23,50 @@
 <br />
 <em>Just click on the pictures of the JuaGPT application to see them!</em>
 </div><br />
+
+
+# Feature Summary
+
+- 🚀 **Easy Setup:** Start in seconds with our streamlined Firebase and Google AI API setup. No extra tools required!
+- 🔥 **Advanced AI Chat Models:** Experience cutting-edge AI with the latest Google AI models, delivering sophisticated conversational capabilities.
+- 🔒 **Robust Security:** Your data is protected with strong Firebase database security and encryption techniques.
+- 💾 **Flexible Data Storage:** Store data securely on Firebase or opt for local storage to suit your needs.
+- 💸 **Totally Free:** Enjoy advanced AI chat functionalities without any cost, thanks to Google's free API access.
+- 🌐 **Seamless Integration:** No need for additional installation tools, making the setup process quick and hassle-free.
+
+JuaGPT is designed to provide a powerful, secure, and easy-to-use AI chatbot experience without any hidden costs or complex setups.
+
+# Installation and Running
+
+A script is provided for Windows and Linux machines to install, update, and run ENFUGUE. Copy the relevant command below and answer the on-screen prompts to choose your installation type and install optional dependencies.
+
+## Windows
+You will be able to use this app on Windows devices in the near future
+
+## Linux
+Stay tuned for the release of this app on Linux devices
+
+## Android
+
+**🎉 Set Up the App Manually 🎉**
+<br>
+
+🚀 **Quick Start**:<br>
+    📱 **Firebase Account**: Create a Firebase account to start your journey! (👨‍💻)<br>
+    🔥 **Firebase Setup**: Add Firebase to your app and power up! (🔥)<br>
+    ✍️ **App Info**: Fill in the required info in `main.dart` to give your app an identity! (📝)<br>
+```dart
+    void main() async {
+  await Hive.initFlutter();
+  Hive.registerAdapter(PersonalInformationAdapter());
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp(
+    options: const FirebaseOptions(
+        apiKey: 'Firebase API Key',
+        appId: 'App ID',
+        messagingSenderId: 'senderID',
+        projectId: 'projectID'),
+  );
+  runApp(const MyApp());
+}...
+```
