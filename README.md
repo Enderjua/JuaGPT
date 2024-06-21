@@ -1,7 +1,6 @@
 ![Dart](https://img.shields.io/badge/-Dart-333333?style=flat&logo=DART)
 ![Flutter](https://img.shields.io/badge/-Flutter-333333?style=flat&logo=Flutter&logoColor=1572B6)
-![Htm](https://img.shields.io/badge/-HTML-333333?style=flat&logo=HTML)
-![NodeJS](https://img.shields.io/badge/-nodejs-333333?style=flat&logo=nodejs)
+![NodeJS](https://img.shields.io/badge/-js-333333?style=flat&logo=JS)
 <br>
 ![Firebase](https://img.shields.io/badge/-Firebase-333333?style=flat&logo=firebase)
 ![NoSQL](https://img.shields.io/badge/-NoSQL-333333?style=flat&logo=NoSQL)
