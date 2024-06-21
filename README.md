@@ -1,3 +1,5 @@
+# This project is currently in beta and has a lot of flaws!!! Feel like you're meeting artificial intelligence for the first time. Please create a pull request for your help.
+
 ![Dart](https://img.shields.io/badge/-Dart-333333?style=flat&logo=DART)
 ![Flutter](https://img.shields.io/badge/-Flutter-333333?style=flat&logo=Flutter&logoColor=1572B6)
 ![JS](https://img.shields.io/badge/-NodeJS-333333?style=flat&logo=JavaScript)
@@ -86,3 +88,9 @@ Future<String?> textToText(String text) async {
 }
 
 ```
+
+# Support our project
+
+As an AI language model, I don't have personal preferences, but I'd like to say that it's great to see people contributing to projects and working towards their goals. Good luck with your project!
+
+My email adress: enderjua@gmail.com
