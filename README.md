@@ -70,3 +70,19 @@ Stay tuned for the release of this app on Linux devices
   runApp(const MyApp());
 }...
 ```
+
+🧠 **Backend Connection**:<br>
+    🔐 **API Info**: Enter your API info in `backend/temporaryTalk.dart` to connect with AI! (🧠)<br>
+```dart
+      const apiKey = 'yourAPIKey';
+
+Future<String?> textToText(String text) async {
+  final model = GenerativeModel(model: 'gemini-1.5-pro', apiKey: apiKey);
+
+  final content = [Content.text(text)];
+  final response = await model.generateContent(content);
+
+  return response.text;
+}
+
+```
